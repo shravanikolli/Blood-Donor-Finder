@@ -1,0 +1,219 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="10dip">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/errorMsgTV"
+            android:textColor="#ff000000"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textPersonName"
+            android:ems="10"
+            android:id="@+id/nameET"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="30dp"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"
+            android:hint="@string/et_name"
+            />
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="number"
+            android:ems="10"
+            android:id="@+id/ageET"
+            android:hint="@string/et_age"
+            android:background="#ffffffff"
+            android:textColor="#ff000000"
+
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="33dp" />
+
+
+        <EditText
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/bloodGroupET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_bloodgroup"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"
+            />
+
+        <EditText
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/contactNoET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_contactNo"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:inputType="textEmailAddress"
+            android:ems="10"
+            android:id="@+id/emailET"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="26dp"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"
+            android:hint="@string/et_email"
+            />
+
+        <EditText
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addLine1ET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_addLine1"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <EditText
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/addLine2ET"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_addLine2"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/cityET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_city"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <EditText
+            android:layout_width="364dp"
+            android:layout_height="wrap_content"
+            android:id="@+id/stateET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_state"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/countryET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_country"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/zipET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_zip"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/usernameET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_username"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/passwordET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_password"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/confirmpasswordET"
+
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="26dp"
+            android:layout_alignEnd="@+id/ageET"
+            android:hint="@string/et_confirmpassword"
+            android:textColor="#ff000000"
+            android:background="#ffffffff"/>
+
+        <CheckBox
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="@string/cb_termsNconditions"
+            android:id="@+id/tncCB"
+            android:layout_centerHorizontal="true"
+            android:checked="false"
+            android:layout_marginTop="26dp"
+            android:textColor="#ffffffff"/>
+
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/button_register"
+            android:id="@+id/registerBTN"
+            android:background="#ff149b78"
+            android:textColor="#ffffffff"
+            android:layout_marginTop="26dp"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:textAlignment="center"
+            android:textStyle="bold"
+            android:onClick="registerUser" />
+
+    </LinearLayout>
+</ScrollView>
+
